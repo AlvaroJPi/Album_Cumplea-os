@@ -46,12 +46,26 @@ body {
 border-color: #5372F0;
 }
 
+.card-list .card-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  border: 2px solid transparent;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.05);
+  transition: 0.2s ease;
+  height: 380px; /* Altura fija para los contenedores */
+  width: 350px; /* Ancho fijo para los contenedores */
+}
 .card-list .card-link .card-image {
     width: 100%;
-    aspect-ratio: 12 / 9;
-    max-width: 600px; /* Máximo ancho */
+    max-width: 400px; /* Máximo ancho */
     height: auto;     /* Mantiene la proporción */
-    object-fit: cover;
+    object-fit: cover; /* Ajusta al contenedor sin distorsión */
     border-radius: 20px;
 }
 
