@@ -1,0 +1,34 @@
+
+  body
+{
+  font-family: sans-serif;
+  background-color: rgb(83, 209, 213) ;
+}
+h1
+{
+  text-align: center;
+  color: rgb(233, 85, 162);
+  border-radius: 122px;
+  margin: 30px 0 50px;
+  background-color: rgb(125, 95, 147)
+  
+
+
+}
+.gallery
+{
+  margin: 30px 50px;
+
+}
+.gallery img{
+
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 1%;
+  margin-left: 16px;
+
+}
+.gallery img:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
